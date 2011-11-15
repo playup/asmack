@@ -2,12 +2,12 @@ Index: org/jivesoftware/smackx/pubsub/PubSubElementType.java
 ===================================================================
 --- org/jivesoftware/smackx/pubsub/PubSubElementType.java	(revision 11464)
 +++ org/jivesoftware/smackx/pubsub/PubSubElementType.java	(working copy)
-@@ -41,6 +41,7 @@
+@@ -44,6 +44,7 @@
  	SUBSCRIBE("subscribe", PubSubNamespace.BASIC), 
  	SUBSCRIPTION("subscription", PubSubNamespace.BASIC),
  	SUBSCRIPTIONS("subscriptions", PubSubNamespace.BASIC), 
 +	SUBSCRIPTIONS_OWNER("subscriptions", PubSubNamespace.OWNER),
- 	UNSUBSCRIBE("unsubscribe", PubSubNamespace.BASIC); 
+ 	UNSUBSCRIBE("unsubscribe", PubSubNamespace.BASIC);
  
  	private String eName;
 Index: org/jivesoftware/smackx/pubsub/Node.java
